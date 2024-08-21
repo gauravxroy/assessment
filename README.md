@@ -4,8 +4,6 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 # CNAPP DASHBOARD
 
@@ -36,70 +34,31 @@ Once inside the project directory, install the project dependencies:
 
 Using npm:
 
-npm install
+## npm install
 Or using yarn:
-yarn install
+## yarn install
 This command will install all the required packages as listed in the package.json file.
 
-4. Run the Development Server
+### Run the Development Server
 After the dependencies are installed, you can run the development server. Vite will start a local server, and you can view the application in your browser.
 
 Using npm:
 
-bash
-Copy code
-npm run dev
+## npm run dev
 Or using yarn:
+## yarn dev
 
-bash
-Copy code
-yarn dev
-5. Open the Application
+##  Open the Application
 Once the server is running, you can open your web browser and navigate to:
 
-arduino
-Copy code
+
+
 http://localhost:5173
 This will load the React application in your browser.
 
-6. Building for Production
-To create an optimized build for production, run the following command:
 
-Using npm:
 
-bash
-Copy code
-npm run build
-Or using yarn:
 
-bash
-Copy code
-yarn build
-The build output will be located in the dist/ directory.
-
-7. Previewing the Production Build
-You can preview the production build locally to ensure everything works as expected:
-
-Using npm:
-
-bash
-Copy code
-npm run preview
-Or using yarn:
-
-bash
-Copy code
-yarn preview
-8. Additional Notes
-If you encounter any issues, make sure that your Node.js and npm/yarn versions are up to date.
-Feel free to customize the project as needed.
-Contributing
-If you'd like to contribute to this project, please fork the repository, create a new branch, and submit a pull request. We welcome all contributions!
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-This README.md file should help any developer clone, set up, and run your React+Vite project on their local machine. Be sure to customize it further with project-specific details as needed.
 
 
 
